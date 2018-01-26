@@ -5,9 +5,9 @@ Hosted here to demo but for reliability you should host it yourself.
 http://vps113957.vps.ovh.ca/heroes-of-the-storm-api
 
 ### Example Endpoints
-http://vps113957.vps.ovh.ca/heroes-of-the-storm-api/heroes/
+/heroes/
 
-http://vps113957.vps.ovh.ca/heroes-of-the-storm-api/heroes/abathur
+/heroes/abathur
 
 
 ### Example Response
