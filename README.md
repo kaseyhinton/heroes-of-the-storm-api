@@ -5,13 +5,14 @@ Hosted here to demo but for reliability you should host it yourself.
 http://vps113957.vps.ovh.ca/heroes-of-the-storm-api
 
 ### Example Endpoints
-```
-// GET All Heroes
+
+`GET All Heroes`
+
 /heroes/
 
-// Get Hero By Name
+`Get Hero By Name`
+
 /heroes/abathur
-```
 
 ### Example Response
 ```json
