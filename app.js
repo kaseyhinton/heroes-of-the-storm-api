@@ -1,24 +1,28 @@
 const express = require('express')
 const app = express()
-const heroesV1 = require('./heroes-v1.json')
+const bodyParser = require('body-parser')
+const path = require('path')
+const heroes = require('./heroes.json')
+const router = express.Router()
 
-app.get('/:version/heroes', function (req, res) {
-    if (req.params.version === 'v1')
-        res.json(heroesV1)
-    else
-        res.send(404, 'Unable to find a resource with specified version number.')
+// configure body parser
+app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.json())
+
+router.route('/heroes')
+.get(function (req, res) {
+        res.json(heroes)
 })
 
-app.get('/:version/heroes/:heroName', function (req, res) {
-    const {heroName, version} = req.params
-    
-    if (version !== 'v1') {
-        res.send(404, 'Unable to find a resource with specified version number.')
-        return
-    }
+router.route('/heroes/:heroName')
+.get(function (req, res) {
+    const {heroName} = req.params
 
-    let hero = heroesV1.filter(hero => hero.PrimaryName.toLowerCase() === heroName.toLowerCase())[0]
+    let hero = heroes.filter(hero => hero.PrimaryName.toLowerCase() === heroName.toLowerCase())[0]
     res.send(hero)
 })
 
-app.listen(8080, () => console.log('listening on port 8080'))
+app.use(router)
+app.use('/static', express.static(path.join(__dirname, 'public')))
+
+app.listen(8080)
