@@ -1,0 +1,459 @@
+[
+    {
+        "PrimaryName": "Abathur",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/abathur/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Utility"
+    },
+    {
+        "PrimaryName": "Alarak",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Alarak/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "Alexstrasza",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Alexstrasza/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Ana",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/ana/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Anub'arak",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Anubarak/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Artanis",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Artanis/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Arthas",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Arthas/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Auriel",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Auriel/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Azmodan",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Azmodan/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Blaze",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Blaze/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Brightwing",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Brightwing/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Cassia",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Cassia/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Chen",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Chen/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Cho",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Chogall/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Chromie",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Chromie/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Burst Damage"
+    },
+    {
+        "PrimaryName": "D.Va",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Dva/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Dehaka",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Dehaka/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Diablo",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Diablo/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "E.T.C.",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Etc/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Falstad",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Falstad/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Gall",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/chogall/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Garrosh",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Garrosh/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Gazlowe",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Gazlowe/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Genji",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Genji/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Greymane",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Greymane/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Gul'dan",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Guldan/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Hanzo",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Hanzo/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Illidan",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Illidan/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Jaina",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Jaina/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Burst Damage"
+    },
+    {
+        "PrimaryName": "Johanna",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Johanna/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Junkrat",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Junkrat/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Burst Damage"
+    },
+    {
+        "PrimaryName": "Kael'thas",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Kaelthas/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Burst Damage"
+    },
+    {
+        "PrimaryName": "Kel'Thuzad",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/KelThuzad/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Burst Damage"
+    },
+    {
+        "PrimaryName": "Kerrigan",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Kerrigan/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "Kharazim",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Kharazim/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Leoric",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Leoric/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Li Li",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Li-Li/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Li-Ming",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Li-Ming/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Burst Damage"
+    },
+    {
+        "PrimaryName": "Lt. Morales",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Lt-Morales/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Lúcio",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Lucio/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Lunara",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Lunara/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Malfurion",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Malfurion/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Malthael",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Malthael/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Medivh",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Medivh/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Support"
+    },
+    {
+        "PrimaryName": "Muradin",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Muradin/bust.jpg",
+        "AttributeName": "Mura",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Murky",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Murky/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Utility"
+    },
+    {
+        "PrimaryName": "Nazeebo",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Nazeebo/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Nova",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Nova/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "Probius",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Probius/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Ragnaros",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Ragnaros/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Raynor",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Raynor/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Rehgar",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Rehgar/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Rexxar",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Rexxar/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Samuro",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Samuro/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "Sgt. Hammer",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Sgt-Hammer/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Sonya",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Sonya/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Stitches",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Stitches/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Tank"
+    },
+    {
+        "PrimaryName": "Stukov",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Stukov/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Sylvanas",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Sylvanas/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Tassadar",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Tassadar/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Support"
+    },
+    {
+        "PrimaryName": "The Butcher",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/The-Butcher/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "The Lost Vikings",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/The-Lost-Vikings/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Utility"
+    },
+    {
+        "PrimaryName": "Thrall",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Thrall/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Tracer",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Tracer/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Tychus",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Tychus/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Tyrael",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Tyrael/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Tyrande",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Tyrande/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Support"
+    },
+    {
+        "PrimaryName": "Uther",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Uther/bust.jpg",
+        "Group": "Support",
+        "SubGroup": "Healer"
+    },
+    {
+        "PrimaryName": "Valeera",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Valeera/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "Valla",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Valla/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    },
+    {
+        "PrimaryName": "Varian",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Varian/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Xul",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Xul/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Zagara",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Zagara/bust.jpg",
+        "Group": "Specialist",
+        "SubGroup": "Siege"
+    },
+    {
+        "PrimaryName": "Zarya",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Zarya/bust.jpg",
+        "Group": "Warrior",
+        "SubGroup": "Bruiser"
+    },
+    {
+        "PrimaryName": "Zeratul",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Zeratul/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Ambusher"
+    },
+    {
+        "PrimaryName": "Zul'jin",
+        "ImageURL": "https://blzmedia-a.akamaihd.net/heroes/Zuljin/bust.jpg",
+        "Group": "Assassin",
+        "SubGroup": "Sustained Damage"
+    }
+]
