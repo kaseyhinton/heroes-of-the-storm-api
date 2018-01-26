@@ -6,6 +6,7 @@ http://vps113957.vps.ovh.ca/heroes-of-the-storm-api
 
 ### Example Endpoints
 http://vps113957.vps.ovh.ca/heroes-of-the-storm-api/heroes/
+
 http://vps113957.vps.ovh.ca/heroes-of-the-storm-api/heroes/abathur
 
 
