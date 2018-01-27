@@ -1,28 +1,46 @@
 const express = require('express')
 const app = express()
-const bodyParser = require('body-parser')
-const path = require('path')
 const heroes = require('./heroes.json')
-const router = express.Router()
 
-// configure body parser
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
+const expressGraphQL = require('express-graphql')
+const { buildSchema } = require('graphql')
 
-router.route('/heroes')
-.get(function (req, res) {
-        res.json(heroes)
-})
+const schema = buildSchema(`
+    type Query {
+        hero(PrimaryName: String!): Hero
+        heroes: [Hero]
+        heroesByGroup(Group: String!): [Hero]
+    },
+    type Hero {
+        PrimaryName: String,
+        ImageURL: String,
+        Group: String,
+        SubGroup: String
+    }
+`)
 
-router.route('/heroes/:heroName')
-.get(function (req, res) {
-    const {heroName} = req.params
+const getHero = (args) => { 
+    const PrimaryName = args.PrimaryName;
+    return heroes.filter(hero => hero.PrimaryName.toLowerCase() === PrimaryName.toLowerCase())[0];
+}
 
-    let hero = heroes.filter(hero => hero.PrimaryName.toLowerCase() === heroName.toLowerCase())[0]
-    res.send(hero)
-})
+const getHeroes = () => heroes;
 
-app.use(router)
-app.use('/static', express.static(path.join(__dirname, 'public')))
+const getHeroesByGroup = (args) => {
+    const Group = args.Group;
+    return heroes.filter(hero => hero.Group.toLowerCase() === Group.toLowerCase());
+}
 
-app.listen(8080)
+const root = {
+    hero: getHero,
+    heroes: getHeroes,
+    heroesByGroup: getHeroesByGroup
+}
+
+app.use('/graphql', expressGraphQL({
+    schema: schema,
+    rootValue: root,
+    graphiql: true
+}))
+
+app.listen(8080);
