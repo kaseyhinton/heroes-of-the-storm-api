@@ -5,7 +5,9 @@ Using Express, Nodejs, GraphQL
 ### Demo
 
 Hosted here to demo but for reliability you should host it yourself.
+
 http://vps113957.vps.ovh.ca/heroes-of-the-storm-api
+
 http://vps113957.vps.ovh.ca/heroes-of-the-storm-api/graphql
 
 ### Example Queries

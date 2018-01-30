@@ -20,15 +20,15 @@ const schema = buildSchema(`
 `)
 
 const getHero = (args) => {
-    const PrimaryName = args.PrimaryName;
-    return heroes.filter(hero => hero.PrimaryName.toLowerCase() === PrimaryName.toLowerCase())[0];
+    const PrimaryName = args.PrimaryName
+    return heroes.filter(hero => hero.PrimaryName.toLowerCase() === PrimaryName.toLowerCase())[0]
 }
 
-const getHeroes = () => heroes;
+const getHeroes = () => heroes
 
 const getHeroesByGroup = (args) => {
-    const Group = args.Group;
-    return heroes.filter(hero => hero.Group.toLowerCase() === Group.toLowerCase());
+    const Group = args.Group
+    return heroes.filter(hero => hero.Group.toLowerCase() === Group.toLowerCase())
 }
 
 const root = {
@@ -38,16 +38,16 @@ const root = {
 }
 
 app.use('/graphql', (req, res, next) => {
-    res.header('Access-Control-Allow-Credentials', true);
-    res.header('Access-Control-Allow-Headers', 'content-type, authorization, content-length, x-requested-with, accept, origin');
+    res.header('Access-Control-Allow-Credentials', true)
+    res.header('Access-Control-Allow-Headers', 'content-type, authorization, content-length, x-requested-with, accept, origin')
     res.header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
     res.header('Allow', 'POST, GET, OPTIONS')
-    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Origin', '*')
     if (req.method === 'OPTIONS') {
-        res.sendStatus(200);
+        res.sendStatus(200)
     } else {
-        next();
+        next()
     }
 }, expressGraphQL({schema: schema, rootValue: root, graphiql: true}))
 
-app.listen(8080);
+app.listen(8080)
